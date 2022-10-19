@@ -1,6 +1,6 @@
 import React from "react"
 import { StyleSheet,Text, TouchableOpacity, View } from 'react-native'
-
+//jasdkjandaskdjnak
 const Button =({labelButton,onpress}) => {
     return(
         <TouchableOpacity style={styles.Button} 
