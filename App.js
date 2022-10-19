@@ -1,10 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View,Image } from 'react-native';
 import Button from './src/telas/Button';
+import Diluc from './src/telas/Diluc';
+import Button from './src/telas/Button';
 
 function MyStack(){
   return(
+
+    
     <Stack.Navigator>
+      
       <Stack.Screen name="Cadastro" componet={Login} />
     </Stack.Navigator>
   );
